@@ -8,5 +8,6 @@ namespace Model
         public string TenDanhMuc { get; set; }
         public int? STT { get; set; }
         public bool TrangThai { get; set; }
+        public bool GhiChu { get; set; }
     }
 }
