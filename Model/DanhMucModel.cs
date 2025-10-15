@@ -8,5 +8,7 @@ namespace Model
         public string TenDanhMuc { get; set; }
         public int? STT { get; set; }
         public bool TrangThai { get; set; }
+        public List<DanhMucModel> listDanhMucCon { get; set; }
+
     }
 }
