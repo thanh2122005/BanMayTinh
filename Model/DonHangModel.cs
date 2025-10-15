@@ -29,6 +29,8 @@ namespace Model
         public int MaSanPham { get; set; }
         public int SoLuong { get; set; }
         public double GiaMua { get; set; }
+        public double GiaBan { get; set; }
+
     }
 
 }
