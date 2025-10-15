@@ -9,6 +9,7 @@ namespace Model
         public int? STT { get; set; }
         public bool TrangThai { get; set; }
         public List<DanhMucModel> listDanhMucCon { get; set; }
+        public string TenDanhMucCha { get; set; }
 
     }
 }
